@@ -3,7 +3,7 @@ import Header from "./components/Header/Header";
 import ChatHistory from "./components/ChatHistory";
 import ChatInput from "./components/ChatInput";
 
-import { connect, sendMsg } from "./api/index";
+import { connect } from "./api/index";
 
 class App extends Component {
   constructor(props) {
